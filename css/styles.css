@@ -26,8 +26,8 @@ p {
 
 a {
   text-decoration: none;
-  color: #39add1;
-  font-weight: 700;
+   font-weight: 700;
+   color: #39ADD1;
 }
 
 
@@ -41,31 +41,40 @@ header nav {
   text-align: left;
 }
 ul {
- display: flex;
- flex-direction: row;
+ display: block;
+ width: 90%;
+ margin: auto;
+ text-align: center;
  list-style-type: none;
  color: #39ADD1;
  font-weight: 700;
 
-
-
-
+}
+  header nav ul li a:hover path {
+     color: #b76e79;
+     fill: currentColor;
+     transition: .3s ease-in-out;
+     transform: scaleX(1.4);
 
 }
+
+a:hover {
+  color: #b76e79;
+}
+
 header nav ul li a {
   display: inline-block;
   margin-right: 20px;
   padding-left: 10px;
 
-
-
 }
 
+header nav ul li a .st0 {
+  fill: #39ADD1;
+}
 
 h1 {
 text-align: center;
-
-
 }
 
 main {
@@ -92,9 +101,15 @@ path.st1 {
   margin: auto;
   width: 150px;
 }
+
+.logo:hover {
+  transition: transform .7s ease-in-out;
+  transform: rotate(360deg);
+}
 .dog1 {
   color: #BA8058;
 }
+
 .dog2 {
   color: #EAAA7F;
 }
@@ -109,7 +124,14 @@ path.st1 {
 }
 .brows{
   color: #DA8058;
+
 }
+.dog1:hover, .dog2:hover, .dog3:hover, .dog4:hover {
+  transform-origin: 50% 50%;
+  transition: transform .4s ease-in-out;
+  transform: rotate(-5deg);
+}
+
 
 
 /******************Pseudo classes********************/
@@ -122,6 +144,9 @@ path.st1 {
   path.st1 {
 
     opacity: 1;
+  }
+  ul {
+    display: flex;
   }
 
 
