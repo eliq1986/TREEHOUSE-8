@@ -30,9 +30,7 @@ a {
   font-weight: 700;
 }
 
-a:hover {
-  color: #111;
-}
+
 
 header {
   padding-top: 10px;
@@ -62,6 +60,8 @@ header nav ul li a {
 
 
 }
+
+
 h1 {
 text-align: center;
 
@@ -70,6 +70,7 @@ text-align: center;
 
 main {
   padding-top: 50px;
+  margin: 0 1em;
 }
 
 main h2 {
@@ -87,17 +88,28 @@ path.st1 {
 }
 
 .logo {
-padding-left: 120px;
-
+  display: block;
+  margin: auto;
+  width: 150px;
 }
-.ugly_dogs {
-  width: 180px;
-
-
+.dog1 {
+  color: #BA8058;
 }
-
-
-
+.dog2 {
+  color: #EAAA7F;
+}
+.dog3 {
+  color: #702809;
+}
+.dog4 {
+  color: #727B84;
+}
+.mouth{
+  color: #FBFEFF;
+}
+.brows{
+  color: #DA8058;
+}
 
 
 /******************Pseudo classes********************/
