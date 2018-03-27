@@ -142,6 +142,9 @@ path.st1 {
   transform: rotate(-5deg);
 }
 
+.flex  {
+  opacity: 0;
+}
 
 
 /******************Pseudo classes********************/
@@ -161,6 +164,15 @@ path.st1 {
   }
   header nav ul li a {
     border-bottom: none;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    opacity: 1;
+
   }
 
 }
