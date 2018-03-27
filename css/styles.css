@@ -149,7 +149,17 @@ path.st1 {
 
 /******************Pseudo classes********************/
 
+@media (min-width: 990px) {
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    opacity: 1;
 
+  }
+
+}
 @media(min-width: 425px ) {
   h1 {
     opacity: 0;
@@ -166,13 +176,6 @@ path.st1 {
     border-bottom: none;
   }
 
-  .flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-right: 50px;
-    opacity: 1;
 
-  }
 
 }
